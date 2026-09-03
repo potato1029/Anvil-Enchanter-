@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "auto_anvil",
+  "version": "${version}",
+  "name": "Auto Anvil",
+  "description": "Client-side automatic enchanted-book application through a real Anvil GUI.",
+  "authors": [
+    "Mahdi"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.mahdi.hotbartochest.AutoAnvilClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": ">=0.141.0"
+  }
+}
